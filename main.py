@@ -209,8 +209,6 @@ class RegAladinTab(ttk.Frame):
 
         self.frame_regaladin = tk.LabelFrame(self, text="Reg Aladin")
         self.frame_regaladin.pack(side="top", fill="x", padx=10, pady=10)
-
-        tk.StringVar()
         self.initial_reference_dir = "/"
         self.path_reference = None
         self.path_floating = None
